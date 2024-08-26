@@ -1,0 +1,182 @@
+
+body{
+    background-color: #D8BFD8;  
+    font-family:'Inter';
+  
+  }
+   
+
+footer{
+    background-color:#DDA0DD;
+    color: #FFFFFF;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+   
+}
+
+#boton-copiar,#input-mensaje{
+  display: none;
+}
+#izquierda{
+    width: 60%;
+    position: relative;
+    height: 100%;
+   }
+   #derecha{
+    box-shadow: 2px 2px 4px 0px rgba(20, 20, 20, 0.3);
+    background-color:#DDA0DD;
+    border-radius: 20px;
+    text-align: center;
+    width: 20%;
+    position: relative;
+    margin-left: 10%;
+    height: 100%;
+  
+  }
+#logo{
+  width: 60px;
+  height: 48px;
+  border-radius: 6px;
+}
+#imagenPrincipe{
+  width: 70%;
+  height: 40%;
+  border-radius: 20px;
+  margin-top: 50%;
+} 
+
+.text-input{
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  font-family:'Inter';
+}
+.input-warning{ 
+  background-image: url('img/warning_16273725.png');
+  background-repeat: no-repeat;
+  background-position: 30% center;
+  background-size: 20px;
+  text-align: center;
+}
+textarea {
+  background: transparent;
+  resize: none;
+  border: 0 none;
+  outline: none;
+  font-family:'Inter';
+  text-transform: lowercase;
+}
+#input-ingresado{
+  text-align: center;
+  padding: 5%;
+  font-family:'Inter';
+  height: 60%;
+}
+#input-texto{
+  font-size: 20px;
+}
+#botons{
+display: flex;
+font-size: 30%;
+}
+#boton-encriptar{
+  width: 50%;
+}
+#btn-encriptar{
+  margin-left: 60%;
+  background-color: #BA55D3;
+  color: white;
+  width: 36%;
+}
+#btn-copiar{
+  background-color:#00BFFF;
+  color: white;
+  width: 50%;
+}
+#boton-desencriptar{
+  width: 50%;
+
+}
+#btn-desencriptar{
+  width: 36%;
+  background-color:	#00BFFF;
+  color: white;
+}
+#boton-copiar{
+text-align: center;
+}
+#text-input-salida{
+width: 70%;
+height: 80%;
+margin-top: 10%;
+font-family:'Inter';
+font-size: 15px;
+}
+button {
+  appearance: button;  
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 10px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 25%;
+}
+button:after {
+  background-clip: padding-box;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+button:main,
+button:focus {
+  user-select: auto;
+}
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+button:disabled {
+  cursor: auto;
+}
+button:active {
+  border-width: 6px 0 0;
+  background: none;
+}
+
+
+

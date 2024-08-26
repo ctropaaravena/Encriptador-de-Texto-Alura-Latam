@@ -1,0 +1,56 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="app.js"></script>
+ </head>
+<body>
+  <div id="container">
+        
+    <div id="izquierda">
+      <div id="logo-izquierda">
+        <img id="logo" src="img/unnamed.png" alt="">
+      </div>
+      <div id="input-ingresado">
+      <textarea id="input-texto" name="comentarios" rows="10" cols="40" placeholder="Ingrese Texto..."></textarea>
+      </div>
+      <div id="mensaje-alerta">
+        <p class="input-warning">Solo letras minúsculas, sin acento</p>
+      </div>
+      <div id="botons">
+         <div id="boton-encriptar">
+          <button type="button"  id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+         </div>
+         <div id="boton-desencriptar">
+          <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+         </div>
+      </div>
+    </div>
+    <div id="derecha">
+      <div id="imagen-derecha">
+        <img id="imagenPrincipe" src="img/frases-motivadoras-del-principito_6d263163_1070x1071.jpeg" alt="">
+      </div>
+      <div id="input-mensaje">
+        <textarea id="text-input-salida" rows="10" cols="40" readonly></textarea>
+      </div>
+      <div id="mensaje">
+          <h4>Ningún mensaje fue encontrado</h4>
+          <p>Ingresa texto que desees encriptar o desencriptar</p>
+         </div>
+      <div id="boton-copiar">
+        <button type="button" id="btn-copiar" onclick="CopiarTexto()">Copiar Texto</button>
+      </div>
+    </div>    
+  </div>
+ 
+</body>
+<footer>
+  <div id="footer">
+    <h4>By Carolina Tropa</h4>
+  </div>
+</footer>
+</html>
